@@ -6,10 +6,10 @@ SELECT nc.npi,
         t.grouping,
         t.classification,
         t.specialization,
-        entity_type_code
-        
+        location_address_postal_code AS zip
 FROM npi_community AS nc
 INNER JOIN npidata AS nd
 USING(npi)
 INNER JOIN taxonomy AS t
-USING(taxonomy_code);
+USING(taxonomy_code)
+;
