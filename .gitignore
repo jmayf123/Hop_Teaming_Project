@@ -1,3 +1,8 @@
+# Data folders 
+data/
+NPPES_Data_Dissemination_February_2023/
+DocGraph_Hop_Teaming_2018_Commercial/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
